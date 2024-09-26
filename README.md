@@ -3,4 +3,4 @@
 
 ## Try here : 
 
-[All The Blogs](blogsweb-production.up.railway.app/api/blogs)
+[All The Blogs](https://blogsweb-production.up.railway.app/api/blogs)
