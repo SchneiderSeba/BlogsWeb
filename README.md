@@ -3,4 +3,4 @@
 
 ## Try here : 
 
-[All The Blogs](https://blogsweb-production.up.railway.app/api/blogs)
+<a href="https://blogsweb-production.up.railway.app/api/blogs" target="_blank">All The Blogs 🚀</a>
