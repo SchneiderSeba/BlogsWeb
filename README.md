@@ -1,4 +1,4 @@
 
 ### Blogs API
 
-## Try here : blogsweb-production.up.railway.app/api/blogs
+## Try here : [All the Blogs](blogsweb-production.up.railway.app/api/blogs)
