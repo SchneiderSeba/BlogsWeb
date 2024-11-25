@@ -7,7 +7,8 @@
     "test": "cross-env NODE_ENV=test node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose --runInBand --detectOpenHandles",
     "test1": "cross-env NODE_ENV=test node --test",
     "start": "cross-env NODE_ENV=production node index.js",
-    "dev": "cross-env NODE_ENV=development nodemon index.js"
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "start:test": "NODE_ENV=test node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,6 @@
   "description": "",
   "devDependencies": {
     "@flydotio/dockerfile": "0.5.8",
-    "cross-env": "7.0.3",
     "jest": "29.7.0",
     "nodemon": "3.1.4",
     "standard": "17.1.0",
@@ -32,9 +32,9 @@
     "extends": "standard"
   },
   "dependencies": {
-    "cross-env": "7.0.3",
     "bcrypt": "5.1.1",
     "cors": "2.8.5",
+    "cross-env": "^7.0.3",
     "dotenv": "16.4.5",
     "eslint": "8.57.0",
     "express": "4.21.0",

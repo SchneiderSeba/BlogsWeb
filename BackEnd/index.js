@@ -22,6 +22,11 @@ app.use('/api/login', loginRouter)
 app.use('/api/users', userRouter)
 app.use('/api', blogRouter)
 
+if (process.env.NODE_ENV === 'test') {
+  const { testinRouter } = await import('./Controllers/testing.js')
+  app.use('/api/testing', testinRouter)
+}
+
 app.use(unknownEndpoint)
 
 app.use(errorHandler)
